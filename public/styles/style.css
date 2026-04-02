@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: black;
+  border-bottom: 2px solid #00cfff;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.titulo {
+  color: #00cfff;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: orange;
+}
+
+.navbar .agora a {
+  font-weight: bold;
+}
+
+.banner {
+  height: 400px;
+  background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.banner .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.banner p {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+
+.banner span {
+  font-weight: bold;
+}
+
+.social {
+  background-color: #eee;
+  padding: 40px 0;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.box {
+  width: 250px;
+}
+
+.box img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+.box h4 {
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #2fa4b3;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer .version {
+  display: block;
+  margin-top: 5px;
+}
+
+
+.login {
+  height: 500px;
+  background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.login .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card-login {
+  background-color: #ccc;
+  padding: 30px;
+  border-radius: 12px;
+  width: 400px;
+  text-align: center;
+}
+
+.card-login h2 {
+  color: #e91e63;
+  margin-bottom: 20px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.campo span {
+  color: #e91e63;
+  margin-bottom: 5px;
+}
+
+.campo input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #00cfff;
+  border-radius: 8px;
+  outline: none;
+}
+
+.botao {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #e91e63;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.card-cadastro {
+  background-color: #ccc;
+  padding: 30px;
+  border-radius: 12px;
+  width: 420px;
+  text-align: center;
+}
+
+.card-cadastro h2 {
+  color: #e91e63;
+  margin-bottom: 20px;
+}
